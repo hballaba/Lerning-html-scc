@@ -1,0 +1,72 @@
+/* селектор по тегу */
+
+a { 
+    color:red;
+    font-size: large;
+}
+
+h1{
+    color: #00FF11;
+    
+}
+
+p{
+    color: rgba(223, 205, 205, 0.5);
+}
+
+/* селектор по индентификатору */
+
+#new1{
+    color:blue;
+    font-size: 25px;
+}
+
+
+/* селекор по классу */
+/* для всего класса */
+.animal {
+    transition: 5s all;
+    color:rgb(245, 241, 240);
+    background-color: rgb(32, 151, 172); /*цвет фона*/
+    border: 2px solid #b4db86; /*граница*/
+    border-radius: 10px; /*размер границы*/
+    font-size: 20px;
+    margin-top: 10px; /*отступ снаружи*/
+    margin-right: 5px;
+    padding: 10; /*отступ внутри*/
+    box-shadow: 7px 7px 20px rgb(32, 151, 172);  /*тень*/
+    width: 15%;
+    height: 35px; /*высота*/
+    display: block; /* отображение */
+    text-align: center; /* отступ */
+    font-weight: 900; /*размер шрифта*/
+    transform: scale(1.5); /*поворачиват увеличивает/уменьшает*/
+}
+
+.animal:hover {
+    transform: rotate(-25deg) scale(1.5);
+}
+
+/* для кошек */
+.cat {
+    color:yellow;
+    background-color: slategrey;
+}
+
+.dog {
+    color: rebeccapurple;
+    background-color: rosybrown;
+}
+
+.animal:hover {
+    border: 5px solid #58be2f;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(2.jpeg);
+}
+
+table{
+    color: skyblue;
+}

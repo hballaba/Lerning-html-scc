@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel ="stylesheet" href= 'style.css'>
+    <script src="calc.js" defer></script>
+
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div id="slider">
+        <div id="polosa">
+            <img src="images/1.png" alt="">
+            <img src="images/2.png" alt="">
+            <img src="images/3.png" alt="">
+            <img src="images/4.png" alt="">
+            <img src="images/5.png" alt="">
+            <img src="images/6.png" alt="">
+        </div>
+    </div>
+    <button id="slider-left">left</button>
+    <button id="slider-right">right</button>
+
+    <p>Number: <input type="text" id = "n1"></p>
+    <p>Number: <input type="text" id = "n2"></p>
+    <button class = "btn-primary" onclick ="add()">Add up</button>
+    <button onclick="minus()">Minus</button>
+    <button onclick="devide()">Divide</button>
+    <button onclick="times()">Times</button>
+    <hr>
+        <p id="out">Result:</p>
+    
+    
+
+
+</body>
+</html>
